@@ -1,0 +1,12 @@
+1. planning : Company mission, vision, goals, and objectives that all work together.
+2. research
+3. development
+4. testing
+5. understand user
+6. customer survey 
+7. loan or investment
+8. marketing (ads)
+
+website should be clean means no adds, user should understand wht u want to say, 
+should not be laggy, not to much animations, should b different from others,
+website should be fast
