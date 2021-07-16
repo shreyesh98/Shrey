@@ -1,4 +1,4 @@
-@media (min-width: 300px) and (max-device-width: 700px) {
+/* @media (min-width: 300px) and (max-device-width: 700px) {
     nav{
         font-size: 17px;  
     }
@@ -96,10 +96,10 @@
 footer h5{
     font-size: 18px;
 }
-}
+} */
 
 /* ----------------------------------------------------------------------- */
-@media (min-width: 400px) and (max-device-width: 767px) {
+@media (min-width: 250px) and (max-device-width: 767px) {
     nav{
         font-size: 18px;  
     }
