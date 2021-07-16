@@ -1,0 +1,424 @@
+@media (min-width: 300px) and (max-device-width: 700px) {
+    nav{
+        font-size: 17px;  
+    }
+/* ----------------------------------- */
+.image{
+   margin: 0px 0px 10px 0px;
+}
+
+.image img{
+    width: 400px;
+    height: 650px;
+    margin: 0px 0px;
+}
+.h1centered{
+   left: 17%;
+   top: 47%;
+   font-size: 50px; 
+}
+.image a, .abtcnt a, .work a, .cont a{
+    left: 45%;
+    font-size: 10px;
+}
+
+/* ----------------------------------- */ 
+.about img{
+    width: 485px;
+    height: 650px;
+}
+.abtcnt{
+    top: 145%;
+}
+.abtcnt h4{
+    font-size: 18px;
+    margin: 0px 0px ;
+}
+.abtcnt a{
+    top: 125%;
+}
+
+/* ----------------------------------- */
+.headercontent img{
+    height: 710px;
+}
+
+.cont{
+   left: 35%;
+   top: 265%; 
+}
+.cont h1{
+    font-size: 27px;
+}
+
+.cont h5{
+    font-size: 17px;
+}
+
+.cont a{
+    top: 100%;
+    left: 70%;
+}
+
+/* ----------------------------------- */
+.work p{
+    padding: 0px 50px;
+    font-size: 16px;
+}
+
+.work h3{
+    font-size: 24px;
+}
+
+.lottiework{
+    margin-left: 75px;
+    width: 200px;
+    height: 200px;
+}
+
+/* ----------------------------------- */
+.lottie{
+    margin-left: 85px;
+}
+
+.process h1, .work h1{
+    font-size: 35px;
+}
+.process h2{
+    font-size: 27px;
+}
+
+.process h6{
+    font-size: 15px;
+}
+
+/* ----------------------------------- */
+footer h5{
+    font-size: 18px;
+}
+}
+
+/* ----------------------------------------------------------------------- */
+@media (min-width: 400px) and (max-device-width: 767px) {
+    nav{
+        font-size: 18px;  
+    }
+/* ----------------------------------- */
+.image{
+   margin: 0px 0px 10px 0px;
+}
+
+.image img{
+    width: 400px;
+    height: 650px;
+    margin: 40px 15px 0px 15px;
+}
+.h1centered{
+   left: 20%;
+   top: 49%;
+   font-size: 50px; 
+}
+.image a, .work a{
+    left: 45%;
+    font-size: 10px;
+    top: 88%;
+}
+
+/* ----------------------------------- */ 
+.about img{
+    width: 485px;
+    height: 690px;
+}
+.abtcnt h1{
+    font-size: 38px;
+}
+
+.abtcnt{
+    top: 140%;
+}
+.abtcnt h4{
+    font-size: 20px;
+    margin: 0px 0px ;
+}
+.abtcnt a{
+    top: 115%;
+}
+
+/* ----------------------------------- */
+.headercontent img{
+    height: 750px;
+}
+
+.cont{
+   left: 35%;
+   top: 255%; 
+}
+.cont h1{
+    font-size: 30px;
+}
+
+.cont h5{
+    font-size: 19px;
+}
+
+.cont a{
+    top: 110%;
+    left: 65%;
+}
+
+/* ----------------------------------- */
+.work p{
+    font-size: 17px;
+}
+
+.work h1, .process h1{
+    font-size: 37px;
+}
+
+.lottiework{
+    margin-left: 93px;
+    width: 200px;
+    height: 200px;
+}
+
+/* ----------------------------------- */
+.lottie{
+    margin-left: 95px;
+}
+
+.process h2{
+    font-size: 25px;
+}
+
+.process h6{
+    font-size: 15px;
+}
+
+/* ----------------------------------- */
+footer p{
+    font-size: 18px;
+}
+footer h5{
+    font-size: 20px;
+}
+}
+
+/* ----------------------------------------------------------------------- */
+@media (min-width: 768px) and (max-width: 1023px){
+    nav{
+        font-size: 25px;
+    }
+/* ----------------------------------- */
+    .image img{
+        width: 800px;
+        height: 860px;
+        margin: 0px 0px;
+    }
+    .h1centered{
+        left: 26.5%;
+        top: 44%;
+        font-size: 80px; 
+     }
+/* ----------------------------------- */
+.about img{
+    width: 100%;
+    height: 980px;
+}
+.abtcnt{
+    top: 140%;
+}
+
+.abtcnt h1{
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+
+.abtcnt a{
+    top: 160%;
+}
+
+/* ----------------------------------- */
+.headercontent img{
+    height: 1030px;
+}
+
+.cont{
+   left: 35%;
+   top: 250%; 
+}
+ .cont h1{
+    font-size: 40px;
+}
+
+.cont h5{
+    font-size: 23px;
+}
+
+.cont a{
+    top: 145%;
+    left: 70%;
+}
+
+/* ----------------------------------- */
+.work{
+    margin-top: 37px;
+}
+
+.work h1{
+    font-size: 46px;
+}
+.work p{
+    font-size: 23px;
+    margin: -5px 0px;
+    padding: 0px 20px;
+}
+
+.work h3{
+    font-size: 35px;
+}
+
+#create{
+   margin-left: 16%;
+}
+
+#create .lottiework{
+    margin-left: 23%;
+}
+
+.lottiework{
+    margin-left: 13%;
+    width: 250px;
+    height: 250px;
+}
+/* ----------------------------------- */
+.process{
+    margin: 80px 0px;
+}
+.process h1{
+    font-size: 50px;
+}
+.process h2{
+    font-size: 35px;
+}
+.process h6{
+    font-size: 20px;
+}
+.lottie{
+    height: 190px;
+    width: 190px;
+}
+
+/* ----------------------------------- */
+footer{
+    padding: 50px;
+}
+footer{
+    padding: 50px 50px;
+}footer p, footer h5{
+    font-size: 25px;
+}
+
+}
+
+/* ----------------------------------------------------------------------- */
+@media (min-width: 1024px) and (max-width: 1366px){
+    nav{
+        font-size: 35px;
+    }
+/* ----------------------------------- */
+    .image img{
+        width: 1050px;
+        height: 1200px;
+        margin: 0px 0px;
+    } 
+    .h1centered{
+        font-size: 100px;
+        left: 28%;
+    }
+/* ----------------------------------- */
+.about img{
+    width: 100%;
+    height: 1318px;
+}
+.abtcnt{
+    top: 140%;
+}
+
+.abtcnt h1{
+  font-size: 65px;
+  margin-bottom: 10px;
+}
+
+.abtcnt h4{
+    font-size: 30px;
+}
+
+.abtcnt a{
+    top: 160%;
+}
+/* ----------------------------------- */
+.headercontent img{
+    height: 1370px;
+}
+.cont{
+    top: 250%;
+    left: 35%;
+}
+.cont h1{
+    font-size: 50px;
+}
+.cont h5{
+    font-size: 30px;
+}
+.cont a{
+    top: 165%;
+    left: 70%;
+}
+
+/* ----------------------------------- */
+.work{
+    margin-top: 10%;
+}
+
+.work h1{
+    font-size: 55px;
+}
+
+.work h3{
+    font-size: 37px;
+}
+
+.work p{
+    font-size: 30px;
+}
+
+.lottiework{
+    margin-left: 7%;
+}
+/* ----------------------------------- */
+.process{
+    margin: 100px 0px;
+}
+.process h1{
+    font-size: 55px;
+}
+.process h2{
+    font-size: 45px;
+}
+.process h6{
+    font-size: 23px;
+}
+.lottie{
+    height: 250px;
+    width: 250px;
+    margin-left: 20px;
+}
+
+/* ----------------------------------- */
+footer{
+    padding: 50px;
+}
+footer p, footer h5{
+    font-size: 30px;
+}
+}
