@@ -99,7 +99,7 @@ footer h5{
 }
 
 /* ----------------------------------------------------------------------- */
-@media (min-width: 300px) and (max-device-width: 767px) {
+@media (min-width: 400px) and (max-device-width: 767px) {
     nav{
         font-size: 18px;  
     }
