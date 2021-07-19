@@ -1,4 +1,4 @@
-@media (min-width: 256px) and (max-device-width: 767px) {
+@media (min-width: 256px) and (max-width: 767px) {
     nav{
         font-size: 5px;  
     }
