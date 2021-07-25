@@ -1,34 +1,41 @@
-@media (min-width: 256px) and (max-width: 767px) {
+@media
+  only screen and (-webkit-min-device-pixel-ratio: 2.0),
+  only screen and (   min--moz-device-pixel-ratio: 2.0),
+  only screen and (     -o-min-device-pixel-ratio: 2.0/1),
+  only screen and (        min-device-pixel-ratio: 2.0),
+  only screen and (                min-resolution: 326dpi),
+  only screen and (                min-resolution: 2.0dppx){
     nav{
-        font-size: 17px;
+        font-size: 19px;
     }
 /* ----------------------------------- */
-.image{
-   margin: 30px 0px 60px 0px;
-}
 
 .image img{
-    width: 400px;
+    width: 420px;
     height: 520px;
-    margin: 70px 0px 0px -1px;
+    margin: 20px 0px 0px 0px;
 }
 .h1centered{
-   left: 17%;
-   top: 47%;
+   left: 20%;
+   top: 46%;
    font-size: 50px; 
 }
 .image a, .abtcnt a, .work a, .cont a{
-    left: 45%;
     font-size: 10px;
+}
+
+.image a{
+    left: 45%;
+    top: 90%;
 }
 
 /* ----------------------------------- */ 
 .about img{
     width: 485px;
-    height: 682px;
+    height: 650px;
 }
 .abtcnt{
-    top: 133%;
+    top: 140%;
 }
 .abtcnt h1{
     font-size: 40px
@@ -39,16 +46,17 @@
 }
 .abtcnt a{
     top: 140%;
+    left: 45%;
 }
 
 /* ----------------------------------- */
 .headercontent img{
-    height: 735px;
+    height: 750px;
 }
 
 .cont{
    left: 35%;
-   top: 250%; 
+   top: 260%; 
 }
 .cont h1{
     font-size: 27px;
@@ -56,11 +64,12 @@
 
 .cont h5{
     font-size: 15px;
+    margin-bottom: 0px;
 }
 
 .cont a{
-    top: 125%;
-    left: 70%;
+    top: 145%;
+    left: 68%;
 }
 
 /* ----------------------------------- */
@@ -78,7 +87,7 @@
 }
 
 .lottiework{
-    margin-left: 79px;
+    margin-left: 75px;
     width: 200px;
     height: 200px;
 }
@@ -105,11 +114,558 @@ footer h5{
 }
 }
 
+@media only screen and (min-height: 736px){
+    nav{
+        font-size: 19px;
+    }
+/* ----------------------------------- */
+
+.image img{
+    width: 420px;
+    height: 520px;
+    margin: 70px 0px 0px -1px;
+}
+.h1centered{
+   left: 20%;
+   top: 48%;
+   font-size: 50px; 
+}
+.image a, .abtcnt a, .work a, .cont a{
+    font-size: 10px;
+}
+
+.image a{
+    left: 45%;
+    top: 90%;
+}
+
+/* ----------------------------------- */ 
+.about img{
+    width: 485px;
+    height: 730px;
+}
+.abtcnt{
+    top: 140%;
+}
+.abtcnt h1{
+    font-size: 40px
+}
+.abtcnt h4{
+    font-size: 17px;
+    margin: 0px 0px ;
+}
+.abtcnt a{
+    top: 140%;
+    left: 45%;
+}
+
+/* ----------------------------------- */
+.headercontent img{
+    height: 750px;
+}
+
+.cont{
+   left: 35%;
+   top: 245%; 
+}
+.cont h1{
+    font-size: 27px;
+}
+
+.cont h5{
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+
+.cont a{
+    top: 175%;
+    left: 68%;
+}
+
+/* ----------------------------------- */
+.work p{
+    padding: 0px 50px;
+    font-size: 16px;
+}
+
+#works h1{
+    font-size: 40px;
+}
+
+.work h3{
+    font-size: 24px;
+}
+
+.lottiework{
+    margin-left: 95px;
+    width: 200px;
+    height: 200px;
+}
+
+/* ----------------------------------- */
+.lottie{
+    margin-left: 100px;
+}
+
+.process h1{
+    font-size: 40px;
+}
+.process h2{
+    font-size: 32px;
+}
+
+.process h6{
+    font-size: 13px;
+}
+
+/* ----------------------------------- */
+footer h5{
+    font-size: 18px;
+}
+}
+
+@media only screen and (min-height: 780px){
+    nav{
+        font-size: 19px;
+    }
+/* ----------------------------------- */
+
+.image img{
+    width: 420px;
+    height: 520px;
+    margin: 70px 0px 0px -1px;
+}
+.h1centered{
+   left: 20%;
+   top: 46%;
+   font-size: 50px; 
+}
+.image a, .abtcnt a, .work a, .cont a{
+    font-size: 10px;
+}
+
+.image a{
+    left: 45%;
+    top: 80%;
+}
+
+/* ----------------------------------- */ 
+.about img{
+    width: 485px;
+    height: 730px;
+}
+.abtcnt{
+    top: 127%;
+}
+.abtcnt h1{
+    font-size: 40px
+}
+.abtcnt h4{
+    font-size: 17px;
+    margin: 0px 0px ;
+}
+.abtcnt a{
+    top: 140%;
+    left: 45%;
+}
+
+/* ----------------------------------- */
+.headercontent img{
+    height: 750px;
+}
+
+.cont{
+   left: 35%;
+   top: 235%; 
+}
+.cont h1{
+    font-size: 27px;
+}
+
+.cont h5{
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+
+.cont a{
+    top: 175%;
+    left: 68%;
+}
+
+/* ----------------------------------- */
+.work p{
+    padding: 0px 50px;
+    font-size: 16px;
+}
+
+#works h1{
+    font-size: 40px;
+}
+
+.work h3{
+    font-size: 24px;
+}
+
+.lottiework{
+    margin-left: 65px;
+    width: 200px;
+    height: 200px;
+}
+
+/* ----------------------------------- */
+.lottie{
+    margin-left: 80px;
+}
+
+.process h1{
+    font-size: 40px;
+}
+.process h2{
+    font-size: 32px;
+}
+
+.process h6{
+    font-size: 13px;
+}
+
+/* ----------------------------------- */
+footer h5{
+    font-size: 18px;
+}
+}
+
+@media only screen and (min-height: 816px){
+    nav{
+        font-size: 19px;
+    }
+/* ----------------------------------- */
+
+.image img{
+    width: 420px;
+    height: 520px;
+    margin: 70px 0px 0px -1px;
+}
+.h1centered{
+   left: 20%;
+   top: 43%;
+   font-size: 50px; 
+}
+.image a, .abtcnt a, .work a, .cont a{
+    font-size: 10px;
+}
+
+.image a{
+    left: 45%;
+    top: 80%;
+}
+
+/* ----------------------------------- */ 
+.about img{
+    width: 485px;
+    height: 730px;
+}
+.abtcnt{
+    top: 127%;
+}
+.abtcnt h1{
+    font-size: 40px
+}
+.abtcnt h4{
+    font-size: 17px;
+    margin: 0px 0px ;
+}
+.abtcnt a{
+    top: 140%;
+    left: 45%;
+}
+
+/* ----------------------------------- */
+.headercontent img{
+    height: 750px;
+}
+
+.cont{
+   left: 35%;
+   top: 225%; 
+}
+.cont h1{
+    font-size: 27px;
+}
+
+.cont h5{
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+
+.cont a{
+    top: 175%;
+    left: 68%;
+}
+
+/* ----------------------------------- */
+.work p{
+    padding: 0px 50px;
+    font-size: 16px;
+}
+
+#works h1{
+    font-size: 40px;
+}
+
+.work h3{
+    font-size: 24px;
+}
+
+.lottiework{
+    margin-left: 96px;
+    width: 200px;
+    height: 200px;
+}
+
+/* ----------------------------------- */
+.lottie{
+    margin-left: 110px;
+}
+
+.process h1{
+    font-size: 40px;
+}
+.process h2{
+    font-size: 32px;
+}
+
+.process h6{
+    font-size: 13px;
+}
+
+/* ----------------------------------- */
+footer h5{
+    font-size: 18px;
+}
+}
+
+@media only screen and (min-height: 844px) {
+    nav{
+        font-size: 19px;
+    }
+/* ----------------------------------- */
+.image img{
+    width: 410px;
+    height: 520px;
+    margin: 0px 0px;
+}
+.h1centered{
+   left: 19%;
+   top: 35%;
+   font-size: 50px; 
+}
+.image a, .abtcnt a, .work a, .cont a{
+    left: 46%;
+    font-size: 10px;
+}
+
+.image a{
+    top: 72.5%;
+}
+
+/* ----------------------------------- */ 
+.about img{
+    width: 485px;
+    height: 730px;
+}
+.abtcnt{
+    top: 110%;
+}
+.abtcnt h1{
+    font-size: 40px
+}
+.abtcnt h4{
+    font-size: 17px;
+    margin: 0px 0px ;
+}
+.abtcnt a{
+    top: 135%;
+}
+
+/* ----------------------------------- */
+.headercontent img{
+    height: 735px;
+}
+
+.cont{
+   left: 35%;
+   top: 215%; 
+}
+.cont h1{
+    font-size: 30px;
+}
+
+.cont h5{
+    font-size: 15px;
+}
+
+.cont a{
+    top: 117%;
+    left: 70%;
+}
+
+/* ----------------------------------- */
+.work p{
+    padding: 0px 50px;
+    font-size: 16px;
+}
+
+#works h1{
+    font-size: 40px;
+}
+
+.work h3{
+    font-size: 24px;
+}
+
+.lottiework{
+    margin-left: 82px;
+    width: 200px;
+    height: 200px;
+}
+
+/* ----------------------------------- */
+.lottie{
+    margin-left: 95px;
+}
+
+.process h1{
+    font-size: 40px;
+}
+.process h2{
+    font-size: 32px;
+}
+
+.process h6{
+    font-size: 13px;
+}
+
+/* ----------------------------------- */
+footer h5{
+    font-size: 20px;
+}
+}
+
+@media only screen and (min-height: 892px) {
+    nav{
+        font-size: 19px;
+    }
+/* ----------------------------------- */
+.image{
+   margin: 30px 0px 60px 20px;
+}
+
+.image img{
+    width: 400px;
+    height: 520px;
+    margin: 70px 0px 0px -1px;
+}
+.h1centered{
+   left: 21%;
+   top: 37%;
+   font-size: 50px; 
+}
+.image a, .abtcnt a, .work a, .cont a{
+    left: 46%;
+    font-size: 10px;
+}
+
+.image a{
+    top: 72.5%;
+}
+
+/* ----------------------------------- */ 
+.about img{
+    width: 485px;
+    height: 682px;
+}
+.abtcnt{
+    top: 110%;
+}
+.abtcnt h1{
+    font-size: 40px
+}
+.abtcnt h4{
+    font-size: 17px;
+    margin: 0px 0px ;
+}
+.abtcnt a{
+    top: 135%;
+}
+
+/* ----------------------------------- */
+.headercontent img{
+    height: 735px;
+}
+
+.cont{
+   left: 35%;
+   top: 195%; 
+}
+.cont h1{
+    font-size: 30px;
+}
+
+.cont h5{
+    font-size: 15px;
+}
+
+.cont a{
+    top: 15%;
+    left: 70%;
+}
+
+/* ----------------------------------- */
+.work p{
+    padding: 0px 50px;
+    font-size: 16px;
+}
+
+#works h1{
+    font-size: 40px;
+}
+
+.work h3{
+    font-size: 24px;
+}
+
+.lottiework{
+    margin-left: 92px;
+    width: 200px;
+    height: 200px;
+}
+
+/* ----------------------------------- */
+.lottie{
+    margin-left: 105px;
+}
+
+.process h1{
+    font-size: 40px;
+}
+.process h2{
+    font-size: 32px;
+}
+
+.process h6{
+    font-size: 13px;
+}
+
+/* ----------------------------------- */
+footer h5{
+    font-size: 18px;
+}
+}
 
 /* ----------------------------------------------------------------------- */
 @media (min-width: 768px) and (max-width: 1023px){
     nav{
-        font-size: 19px;
+        font-size: 25px;
     }
 /* ----------------------------------- */
     .image img{
@@ -119,8 +675,11 @@ footer h5{
     }
     .h1centered{
         left: 27%;
-        top: 44%;
+        top: 30%;
         font-size: 70px;
+     }
+     .image a{
+         top: 60%;
      }
 /* ----------------------------------- */
 .about img{
@@ -128,20 +687,19 @@ footer h5{
     height: 660px;
 }
 .abtcnt{
-    top: 140%;
+    top: 95%;
 }
 
 .abtcnt h1{
-  font-size: 40px;
-  margin-bottom: 10px;
+  font-size: 50px;
 }
 
 .abtcnt h4{
-    font-size: 20px;
+    font-size: 23px;
 }
 
 .abtcnt a{
-    top: 115%;
+    top: 125%;
 }
 
 /* ----------------------------------- */
@@ -150,20 +708,20 @@ footer h5{
 }
 
 .cont{
-   left: 35%;
-   top: 250%; 
+   left: 34%;
+   top: 175%; 
 }
  .cont h1{
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .cont h5{
-    font-size: 18px;
+    font-size: 22.5px;
     padding: 0px 50px;
 }
 
 .cont a{
-    top: 125%;
+    top: 100%;
     left: 70%;
 }
 
@@ -173,16 +731,16 @@ footer h5{
 }
 
 .work h1{
-    font-size: 37px;
+    font-size: 45px;
 }
 .work p{
-    font-size: 17px;
-    margin: -5px 0px;
+    font-size: 24px;
+    margin: 10px 0px;
     padding: 0px 20px;
 }
 
 .work h3{
-    font-size: 29px;
+    font-size: 35px;
 }
 
 #create{
@@ -194,22 +752,22 @@ footer h5{
 }
 
 .lottiework{
-    margin-left: 20%;
-    width: 200px;
-    height: 200px;
+    margin-left: 13%;
+    width: 250px;
+    height: 250px;
 }
 /* ----------------------------------- */
 .process{
     margin: 80px 0px;
 }
 .process h1{
-    font-size: 40px;
+    font-size: 45px;
 }
 .process h2{
-    font-size: 27px;
+    font-size: 32px;
 }
 .process h6{
-    font-size: 13px;
+    font-size: 15px;
 }
 .lottie{
     margin-left: 20%;
@@ -221,8 +779,8 @@ footer h5{
 footer{
     padding: 30px;
 }
-footer p, footer h5{
-    font-size: 18.5px;
+footer h5{
+    font-size: 25px;
 }
 
 }
@@ -230,52 +788,56 @@ footer p, footer h5{
 /* ----------------------------------------------------------------------- */
 @media (min-width: 1024px) and (max-width: 1366px){
     nav{
-        font-size: 20px;
+        font-size: 25px;
     }
 /* ----------------------------------- */
     .image img{
         width: 100%;
-        height: 550px;
+        height: 700px;
         margin: 20px 0px 0px 0px;
     } 
     .h1centered{
-        font-size: 70px;
-        left: 33%;
+        font-size: 90px;
+        left: 29.5%;
+        top: 30%;
+    }
+    .image a{
+        top: 55%;
     }
 /* ----------------------------------- */
 .about img{
     width: 100%;
-    height: 660px;
+    height: 750px;
 }
 .abtcnt{
-    top: 140%;
+    top: 85%;
 }
 
 .abtcnt h1{
-  font-size: 45px;
+  font-size: 60px;
   margin-bottom: 10px;
 }
 
 .abtcnt h4{
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .abtcnt a{
-    top: 140%;
+    top: 130%;
 }
 /* ----------------------------------- */
 .headercontent img{
-    height: 710px;
+    height: 750px;
 }
 .cont{
-    top: 260%;
-    left: 35%;
+    top: 150%;
+    left: 32.6%;
 }
 .cont h1{
-    font-size: 45px;
+    font-size: 55px;
 }
 .cont h5{
-    font-size: 20px;
+    font-size: 25px;
     padding: 0px 100px;
 }
 .cont a{
@@ -289,15 +851,15 @@ footer p, footer h5{
 }
 
 .work h1{
-    font-size: 45px;
+    font-size: 55px;
 }
 
 .work h3{
-    font-size: 27px;
+    font-size: 32px;
 }
 
 .work p{
-    font-size: 18px;
+    font-size: 25px;
     padding: 0px 20px;
 }
 
@@ -311,13 +873,13 @@ footer p, footer h5{
     margin: 52.5px 0px;
 }
 .process h1{
-    font-size: 45px;
+    font-size: 55px;
 }
 .process h2{
-    font-size: 28px;
+    font-size: 33px;
 }
 .process h6{
-    font-size: 13px;
+    font-size: 17px;
 }
 .lottie{
     height: 190px;
@@ -327,9 +889,9 @@ footer p, footer h5{
 
 /* ----------------------------------- */
 footer{
-    padding: 20px;
+    padding: 25px;
 }
-footer p, footer h5{
-    font-size: 20px;
+footer h5{
+    font-size: 30px;
 }
 }
