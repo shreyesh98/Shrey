@@ -9,7 +9,7 @@ nav{
     font-family: 'Courgette', cursive;
 }
 
-.navbar.fixed-top.scrolled {
+.navbar.fixed-top {
     background-color: white !important;
     transition: background-color 2000ms linear;
     margin-bottom: 20%;
@@ -42,13 +42,13 @@ html {
 .h1centered {
     position: absolute;
     top: 47%;
-    left: 40%;
+    left: 38.5%;
     transform: translate(-50%, -50%);
     color: ivory;
     text-shadow: 0px 3px 3px rgb(252, 252, 242);
     --animate-duration: 5s; 
     font-family: 'Kaushan Script', cursive; 
-    font-size: 60px;
+    font-size: 70px;
   }
 
 .image img{
@@ -105,7 +105,7 @@ html {
 }
 .cont{
     position: absolute;
-    top: 260%;
+    top: 255%;
     left: 33%;
     transform: translate(-50%, -50%); 
     text-align: center;
@@ -177,7 +177,7 @@ html {
 /* ----------------------------------------------------------------------- */
 
 .lottie{
-    margin-left: 100px;
+    margin-left: 115px;
     width: 175px;
     height: 175px;
 }
