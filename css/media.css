@@ -6,7 +6,7 @@
         }
     
     nav{
-        font-size: 20px;
+        font-size: 19px;
     }
 /* ----------------------------------- */
 .image{
@@ -14,22 +14,22 @@
 }
 
 .image img{
-    width: 450px;
-    height: 500px;
+    width: 427px;
+    height: 440px;
     margin: 0px 0px;
 }
 .h1centered{
-   left: 21%;
-   top: 37%;
-   font-size: 50px; 
+   left: 16%;
+   top: 40%;
+   font-size: 55px; 
 }
 .image a, .abtcnt a, .work a, .cont a{
-    left: 46%;
     font-size: 10px;
 }
 
 .image a{
-    top: 72.5%;
+    left: 46%;
+    top: 83%;
 }
 
 /* ----------------------------------- */ 
@@ -38,10 +38,10 @@
     height: 682px;
 }
 .abtcnt{
-    top: 110%;
+    top: 127%;
 }
 .abtcnt h1{
-    font-size: 40px
+    font-size: 42px
 }
 .abtcnt h4{
     font-size: 17px;
@@ -53,15 +53,15 @@
 
 /* ----------------------------------- */
 .headercontent img{
-    height: 735px;
+    height: 729px;
 }
 
 .cont{
    left: 35%;
-   top: 205%; 
+   top: 243%; 
 }
 .cont h1{
-    font-size: 30px;
+    font-size: 32px;
 }
 
 .cont h5{
@@ -69,7 +69,7 @@
 }
 
 .cont a{
-    top: 100%;
+    top: 113%;
     left: 70%;
 }
 
@@ -80,33 +80,33 @@
 }
 
 #works h1{
-    font-size: 40px;
+    font-size: 45px;
 }
 
 .work h3{
-    font-size: 24px;
+    font-size: 31px;
 }
 
 .lottiework{
-    margin-left: 92px;
+    margin-left: 78px;
     width: 200px;
     height: 200px;
 }
 
 /* ----------------------------------- */
 .lottie{
-    margin-left: 105px;
+    margin-left: 92px;
 }
 
 .process h1{
-    font-size: 40px;
+    font-size: 45px;
 }
 .process h2{
-    font-size: 32px;
+    font-size: 30px;
 }
 
 .process h6{
-    font-size: 13px;
+    font-size: 14px;
 }
 
 /* ----------------------------------- */
